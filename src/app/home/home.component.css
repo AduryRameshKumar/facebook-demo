@@ -1,0 +1,94 @@
+.leftMenu{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    column-gap: 30px;
+
+}
+.gridLeft{
+    display: flex;
+    flex-direction: column;
+
+}
+.leftMenu li{
+    padding: 20px 0px;
+}
+.imageBorder{
+    height: 36px;
+    width: 36px;
+    object-fit:cover;
+    border-radius: 100%;
+}
+.ImageCent ,.createIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.createIcons .fa{
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+
+}
+.createIcons p{
+    padding: 20px 0px;
+    margin-left: 2.5%;
+
+}
+.createIcons{
+    width: 130px;
+    height: 20px;
+    background-color: white;
+}
+.statuses img  {
+    width: 130px;
+    border-radius: 20px;
+    height: 205px;
+    object-fit: cover;
+
+}
+ .statuses{
+    margin-left: 15px;
+ }
+.ImageCents{
+    display: flex;
+    flex-direction: row;
+}
+ .proP{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    left: 203px;
+    top: 33px;
+    border: 5px solid white;
+}
+.statuses   .proP1{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    left: 350px;
+    top: 33px;
+    border: 5px solid white;
+}
+.statuses   .proP2{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    left: 495px;
+    top: 33px;
+    border: 5px solid white;
+}
+.postsLogo img{
+    object-fit: cover;
+    border-radius: 100%;
+    height: 30px;
+    width: 32px;
+}

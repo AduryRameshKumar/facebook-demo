@@ -1,0 +1,72 @@
+.navbar{
+    z-index: 10;
+    background-color: #ffff !important;
+    width: 100vw;
+}
+
+nav{
+    position: relative;
+}
+.search{
+    position: relative;
+    left: -27px;
+    top: 9px;
+}
+::placeholder{
+    padding-left: 20px;
+}
+.navbar {
+    height: 83px;
+    width: 83px;
+    display: flex;
+}
+.menuIcons{
+    display: flex;
+    margin-left: 230px;
+    justify-content: center;
+}
+.menuIcons .fa{
+    padding-left: 75px;
+    font-size: 25px;
+    color: #65676b;
+}
+.profileRight{
+    display: flex;
+    position: relative;
+    right: -346px;
+}
+.profileRight  .fa{
+    margin-top: 2px;
+    font-size: 18px;
+    color: #393939;
+
+}
+.not{
+    position: relative;
+    left: 26px;
+    top: -12px;
+}
+.notCircle{
+    position: absolute;
+    background: red;
+    color: white;
+    width: 22px;
+    border-radius: 100%;
+    text-align: center;
+    height: 22px;
+}
+.profileRight .circle{
+    padding:8px;
+    background-color: #c4c4c4;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+.profileIMage img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    top: -8px;
+}

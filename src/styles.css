@@ -1,1 +1,249 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .card {
+    border-radius: 15px;
+  }
+  .coverImage {
+    display: flex;
+    justify-content: center;
+  }
+  .coverBlur{
+    position: absolute;
+    border-radius: 0px 0px 19px 19px;
+    width: 100vw;
+    opacity: 1;
+    filter: blur(100vw);
+  }
+  .coverImage img {
+    width: 70vw;
+    object-fit: cover;
+    height: 50vh;
+  }
+  .profile {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .profile .profileIMage {
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-left: 18vw;
+    margin-top: -8vh;
+  }
+  .friendsCount {
+    color: #65677e;
+    font-size: 12px;
+  }
+  .statusicons {
+    font-size: 17px;
+  }
+  
+  .userName h3 {
+    font-size: 32px;
+  }
+  
+  .friendsImages img {
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px solid white;
+    height: 44px;
+    width: 44px;
+  }
+  
+  .userParent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .userButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .container-fluid {
+    background-color: #f0f2f5;
+  }
+  .parents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .leftCards {
+    padding-left: 80px;
+  }
+  .parents {
+    padding: 8px 0px;
+  }
+  .statusicons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .icons i {
+    color: #8c939d;
+  }
+  .featured {
+    height: 180px;
+    width: 101px;
+    border-radius: 20px;
+  }
+  .heartColour{
+    color: #FB4D71;
+  }
+  .featureds {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .photoGrid img {
+    object-fit: cover;
+    margin: 2.5px;
+    height: 114px;
+    width: 113px;
+  }
+  .eventsGrid .cards .card {
+    width: 162px;
+    height: 242px;
+  }
+  .eventsGrid .cards .card .card-body .fa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .eventsGrid .fa-briefcase {
+    margin: 40%;
+    font-size: 24px;
+    color: #1877f2;
+  }
+  .btn-light{
+    background-color: #E4E6EB;
+  }
+  .btn-light:hover{
+    background-color: #dcdddf;
+  }
+  .tabs .nav  {
+    width: 38vw;
+    padding: 0px;
+    position: relative;
+    top: 22px;
+    margin: 0px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  
+  }
+  .tabs .nav-item{
+    width: 50%;
+  }
+  .
+  .textGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+  .gridtab{
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+  }
+  .postName h4{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .postName h4 ,.postName small{
+    margin-top: 5px;
+  
+  }
+  .timeStamps{
+    position: relative;
+    left: 49px;
+    top: -24px;
+  }
+  .postName img{
+    border-radius: 100%;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+  }
+  .likeIcons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .likeIcons span{
+    color: #65676b;
+    font-weight: 600;
+  }
+  .comment ::placeholder {
+    position: absolute;
+    top:5px;
+    left: 15px;
+    color: #65676b;
+    opacity: 1; /* Firefox */
+  }
+  .commentsEmojis{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    color: #676b;
+  }
+  .commentsEmojis i{
+    padding:0px 25px
+  }
+  .commentsEmojis{
+    margin-top: 49px;
+    margin-left: 40px;
+  }
+  .coverBox{
+    position: relative;
+  } 
+  .editCover{
+    position: absolute;
+    right: 20px;
+    bottom: 13px;
+  
+  }
+  .profileBox .cameBack{
+    position: relative;
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
+  }
+  .profileBox .cameBack .whiteCirlce{
+
+    background-color: #E4E6EB;
+  }
+  .profileBox .cameBack .fa{
+    position: absolute;
+    left: 404px;
+    top: 23px;
+    background-color: #ffff;
+
+    
+  }
+  @media screen and (max-width: 500px) {
+    .profile .profileIMage {
+      justify-content: center;
+      margin-left: 0px;
+    }
+    .profile {
+      justify-content: center;
+    }
+    .coverImage img {
+      width: 100vw;
+      object-fit: cover;
+      height: 30vh;
+    }
+  }
+  
