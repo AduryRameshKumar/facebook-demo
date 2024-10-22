@@ -33,7 +33,7 @@ nav{
 .profileRight{
     display: flex;
     position: relative;
-    right: -346px;
+    right: -195px;
 }
 .profileRight  .fa{
     margin-top: 2px;
